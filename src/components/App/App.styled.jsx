@@ -23,20 +23,3 @@ export const Container = styled.div`
   `
   ;
 
-// export const InnerContainer = styled.div`
-//   width: 50%;
-//   height:100%
-//   text-align:center;
-//   margin-bottom: 20px;
-//   background-color: #A52A2A;
-//   border-radius: 5px;
-//   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-//   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-//   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-// `;
-
-
-export const Title = styled.h2`
-padding-left:45px;
-`
-  ;
