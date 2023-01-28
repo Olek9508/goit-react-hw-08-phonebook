@@ -7,8 +7,8 @@ import {
   BtnSubmit,
 } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'redux/fetchApi';
-import { selectContacts } from 'redux/Selectors';
+import { addContact } from 'redux/contacts/fetchApi';
+import { selectContacts } from 'redux/contacts/Selectors';
 
 export const ContactForm = () => {
   const initualValues = {

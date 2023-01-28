@@ -5,7 +5,7 @@ import { Container,TitleOne,TitleTwo } from './App.styled';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
-import { fetchContacts } from 'redux/fetchApi';
+import { fetchContacts } from 'redux/contacts/fetchApi';
 
 export const App = () => {
   const dispatch = useDispatch();

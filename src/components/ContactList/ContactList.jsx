@@ -1,7 +1,7 @@
 import {ListBox, ListItem, BtnDelete, Text } from './Contact.styled';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectContactsByName, selectLoadingStatus } from 'redux/Selectors';
-import { deleteContact } from 'redux/fetchApi';
+import { selectContactsByName, selectLoadingStatus } from 'redux/contacts/Selectors';
+import { deleteContact } from 'redux/contacts/fetchApi';
 import { Loader } from 'components/Loader/SpinningLoader';
 
 export const ContactList = () => {
