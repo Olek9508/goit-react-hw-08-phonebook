@@ -9,8 +9,8 @@ justify-content: center;
 
 export const Label = styled.h3`
   margin-bottom: 10px;
-  color: white;
-text-shadow: 0 0 20px #7f00ff,
+  color: black;
+  text-shadow: 0 0 20px #7f00ff,
              0 0 30px #9831ff,
              0 0 40px #ac59ff;
 `;

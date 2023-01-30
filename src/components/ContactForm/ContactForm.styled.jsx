@@ -22,10 +22,10 @@ export const FormBox = styled(Form)`
 export const Label = styled.label`
   width: 60px;
   margin-right: 10px;
-  color: white;
-text-shadow: 0 0 20px #7f00ff,
+  color: black;
+  text-shadow: 0 0 20px #7f00ff,
              0 0 30px #9831ff,
-             0 0 40px #ac59ff;
+             0 0 40px #ac59ff;  
 `;
 
 export const Input = styled.input`
@@ -46,16 +46,19 @@ export const BtnSubmit = styled.button`
   margin-top: 15px;
   width: 180px;
   font-size: 16px;
+  font-weight: bold;
   padding: 1.5rem;  
   margin-top: 25px;
   background: transparent;
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  color: rgb(127, 255, 0);
-  border: rgb(127, 255, 0) 0.125em solid;
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em rgb(127, 255, 0);
-  box-shadow: inset 0 0 0.5em 0 rgb(127, 255, 0), 0 0 0.5em 0 rgb(127, 255, 0);
+  color: darkgreen;
+  border: darkgreen 0.125em solid;
+text-shadow: 0 0 20px #00ff06,
+             0 0 30px #31ff54,
+             0 0 40px #59ff80;
+box-shadow: inset 0 0 0.5em 0 rgb(127, 255, 0), 0 0 0.5em 0 rgb(127, 255, 0);
 :hover,
 :focus{
   background-color: rgb(127, 255, 0);

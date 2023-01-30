@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Icon } from 'components/SignIn/Sign.styled';
 
 
 function Copyright(props) {
@@ -22,12 +23,12 @@ function Copyright(props) {
       align="center"
       {...props}
     >
-      {'Copyright © '}
+      {'Developed by © Oleksandr Volik '}
       <Link color="inherit" href="https://github.com/olek9508">
-        Oleksandr Volik
+        <Icon/>
       </Link>{' '}
       {new Date().getFullYear()}
-      {'.'}
+      {''}
     </Typography>
   );
 }

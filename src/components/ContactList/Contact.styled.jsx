@@ -21,10 +21,11 @@ export const ContactListText = styled.p`
 
 export const Text = styled.p`
   text-transform: capitalize;
-  color: white;
-  text-shadow:0 0 20px rgba(127,0,255,0),
+  color: black;
+  text-shadow: 0 0 20px #7f00ff,
              0 0 30px #9831ff,
-             0 0 40px #ac59ff;
+             0 0 40px #ac59ff;  
+  font-size: 16px;
 `
 ;
 
@@ -34,7 +35,8 @@ export const BtnDelete = styled.button`
   align-items: center;
   width: 180px;
   font-size: 16px;
-  color: #e04848;
+  font-weight: bold;
+  color: darkred;
   padding: 1.5rem;
   border-radius: 5px;
   border-color: transparent;
@@ -45,8 +47,9 @@ export const BtnDelete = styled.button`
   cursor: pointer;
   box-shadow: 0 0 50px 15px #e04848;
   border: #e04848 0.125em solid;
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #e04848;
-  box-shadow: inset 0 0 0.5em 0 #e04848, 0 0 0.5em 0 #e04848;
+text-shadow: 0 0 20px #ff0023,
+             0 0 30px #f32447,
+             0 0 40px #ff5993;  box-shadow: inset 0 0 0.5em 0 #e04848, 0 0 0.5em 0 #e04848;
   :hover,
 :focus{
   background-color: #e04848;

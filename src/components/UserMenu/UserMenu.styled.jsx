@@ -13,4 +13,6 @@ export const HeaderBox = styled.div`
 
 export const UserTitle = styled.p`
   margin-right: 10px;
+  font-weight: bold;
 `;
+
