@@ -15,9 +15,17 @@ import styled from '@emotion/styled';
 //   }
 // `;
 
+// export const HeroSection = styled.section`
+// background-color: black;
+// `;
+
 export const HeroTitle = styled.h1`
   width: 100%;
   font-size: 36px;
+  color: black;
+  text-shadow: 0 0 20px #7f00ff,
+             0 0 30px #9831ff,
+             0 0 40px #ac59ff;
 
   margin-right: auto;
 
@@ -29,6 +37,10 @@ export const HeroTitle = styled.h1`
 export const HeroTitleWord = styled.span`
   display: block;
   font-size: 48px;
+  color: black;
+  text-shadow: 0 0 20px #7f00ff,
+             0 0 30px #9831ff,
+             0 0 40px #ac59ff;
   @media screen and (min-width: 480px) {
   }
 

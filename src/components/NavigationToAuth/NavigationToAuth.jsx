@@ -10,7 +10,7 @@ export const NavigationToAuth = () => {
         <Link to="/" end>
           Home
         </Link>
-        <Link to="/contacts">Phonebook</Link>
+        {/* <Link to="/contacts">Phonebook</Link> */}
       </NavigationBox>
       <NavigationBox>
         <Link to="/register">Register</Link>

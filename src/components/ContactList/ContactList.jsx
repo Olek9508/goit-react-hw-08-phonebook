@@ -18,7 +18,7 @@ export const ContactList = () => {
   return (
     <section>
       <div>
-        <h2>Contacts</h2>
+        <h2>Contacts:</h2>
         {contacts.length === 0 ? (
           <h2>Phonebook is empty</h2>
         ) : (

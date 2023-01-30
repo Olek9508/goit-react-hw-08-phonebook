@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { setFilterValue } from '../../redux/contacts/FilterSlice';
 import { selectFilterValue } from 'redux/contacts/Selectors';
-import { Label, Input } from './Filter.styled';
+import { FilterBox, Label, Input } from './Filter.styled';
 
 
 export const Filter = () => {
@@ -15,9 +15,9 @@ export const Filter = () => {
 
   return (
     <section>
-      <div>
+      <FilterBox>
         <Label>
-          Find contact by name:
+          Find contact by name: <br/>
           <Input
             type="text"
             name="filter"
@@ -27,7 +27,7 @@ export const Filter = () => {
             required
           />
         </Label>
-      </div>
+      </FilterBox>
     </section>
   );
 };

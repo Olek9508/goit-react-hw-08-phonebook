@@ -3,12 +3,12 @@ import { Container } from '../../components/App/App.styled';
 
 export default function Home() {
   return (
-    // <HeroImg>
+          // {/* // <HeroImg> */}
       <Container>
         <HeroTitle>
-          Create your personal <HeroTitleWord>phonebook</HeroTitleWord>
+         Now, manage your contacts is easier, than you can imagine! <HeroTitleWord>Please, sign in to continue</HeroTitleWord>
         </HeroTitle>
       </Container>
-    // </HeroImg>
+    // {/* // </HeroImg> */}
   );
 }

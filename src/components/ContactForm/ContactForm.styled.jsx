@@ -2,6 +2,11 @@
 import styled from '@emotion/styled';
 import { Form } from 'formik';
 
+export const FormSection = styled.section`
+padding-top: 55px;
+padding-bottom: 55px;
+`;
+
 export const FormBox = styled(Form)`
   display: flex;
   flex-wrap: wrap;

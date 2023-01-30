@@ -5,7 +5,9 @@ export const Link = styled(NavLink)`
   display: block;
   width: 80px;
   color: black;
-  font-size: 12px;
+  text-shadow: 0 0 20px #7f00ff,
+             0 0 30px #9831ff,
+             0 0 40px #ac59ff;  font-size: 12px;
   text-transform: uppercase;
   font-weight: 900;
   padding: 10px;

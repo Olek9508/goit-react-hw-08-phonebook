@@ -4,7 +4,7 @@ import { Formik, Field } from 'formik';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { addContact } from 'redux/contacts/fetchApi';
 import { selectContacts } from 'redux/contacts/Selectors';
-import { FormBox, Label, Input, BtnSubmit} from './ContactForm.styled';
+import { FormSection, FormBox, Label, Input, BtnSubmit} from './ContactForm.styled';
 
 
 
@@ -27,9 +27,8 @@ export const ContactForm = () => {
   };
 
   return (
-    <section>
+    <FormSection>
       <div>
-        <h2>Add contact:</h2>
         <Formik initialValues={initualValues} onSubmit={handleOnSubmit}>
           <FormBox>
             <Label>Name</Label>
@@ -56,7 +55,7 @@ export const ContactForm = () => {
           </FormBox>
         </Formik>
       </div>
-    </section>
+    </FormSection>
   );
 };
 

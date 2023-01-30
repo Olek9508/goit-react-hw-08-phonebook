@@ -1,5 +1,10 @@
 import styled from "@emotion/styled"
 
+export const FilterBox = styled.div`
+display: flex;
+justify-content: center;
+`
+
 
 
 export const Label = styled.h3`
