@@ -1,34 +1,22 @@
-import { Suspense } from 'react';
-import { Outlet } from 'react-router-dom';
-// import { Global } from '@emotion/react';
-import { Loader } from '../Loader/SpinningLoader';
-import { UserMenu } from '../UserMenu/UserMenu';
-import { useAuth } from '../../hooks/useAuth';
-import { AuthNav } from '../AuthNav/AuthNav';
-// import { GlobalStyles } from '../App/GlobalStyles.styled';
-import { Container } from '../App/App.styled';
-import { Header, Navigation } from './NavigationToAuth.styled';
+import { useSelector } from 'react-redux';
+import { selectIsLoggedIn } from '../../redux/authentication/selectors';
+import { Link, NavigationBox } from './NavigationToAuth.styled';
 
-
-const SharedLayout = () => {
-  const { isLoggedIn } = useAuth();
-
+export const NavigationToAuth = () => {
+  const isLoggedIn = useSelector(selectIsLoggedIn);
   return (
     <>
-      <div>
-      <Header>
-        <Container>
-          <Navigation>
-            {isLoggedIn ? <UserMenu /> : <AuthNav />}
-          </Navigation>
-        </Container>
-              </Header>
-              </div>
-      <Suspense fallback={<Loader />}>
-        <Outlet />
-      </Suspense>
+      <NavigationBox>
+        <Link to="/" end>
+          Home
+        </Link>
+        <Link to="/contacts">Phonebook</Link>
+      </NavigationBox>
+      <NavigationBox>
+        <Link to="/register">Register</Link>
+        <Link to="/login">{isLoggedIn ? 'Log Out' : 'Log In'}</Link>
+      </NavigationBox>
     </>
   );
 };
 
-export default SharedLayout;
