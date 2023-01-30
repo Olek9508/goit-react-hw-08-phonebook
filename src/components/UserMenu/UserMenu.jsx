@@ -3,6 +3,7 @@ import { Button } from '@mui/material';
 import { logOut } from '../../redux/authentication/operations';
 import { useAuth } from '../../hooks/useAuth';
 import { HeaderBox, UserTitle, UserMenuTitle } from './UserMenu.styled';
+// import { Link } from '../NavigationToAuth/NavigationToAuth.styled'
 
 export const UserMenu = () => {
   const dispatch = useDispatch();

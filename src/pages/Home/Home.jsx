@@ -6,7 +6,7 @@ export default function Home() {
           // {/* // <HeroImg> */}
       <Container>
         <HeroTitle>
-         Now, manage your contacts is easier, than you can imagine! <HeroTitleWord>Please, sign in to continue :)</HeroTitleWord>
+         Now, managing your contacts is much easier, than you could even imagine! <HeroTitleWord>Please, sign in to continue :)</HeroTitleWord>
         </HeroTitle>
       </Container>
     // {/* // </HeroImg> */}
