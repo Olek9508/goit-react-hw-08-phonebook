@@ -19,7 +19,6 @@ export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: black;
   `
   ;
 
